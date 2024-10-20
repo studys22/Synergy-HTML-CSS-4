@@ -1,0 +1,22 @@
+body {
+    background-color: #F0F8FF;
+    -webkit-background-color: #F0F8FF; /* не работает */
+    -moz-background-color: #F0F8FF; /* не работает */
+    -ms-background-color: #F0F8FF; /* не работает */
+    -o-background-color: #F0F8FF; /* не работает */
+    color:  #00008B;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration-line: underline;
+}
+
+img {
+    width: 300px;
+}
