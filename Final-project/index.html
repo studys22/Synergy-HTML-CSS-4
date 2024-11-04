@@ -7,23 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://static.figma.com/app/icon/1/favicon.png">
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
-    <header>
+
+    <header id="home">
         <div class="menu">
             <div class="logo">Bag</div>
             <nav class="menu-detail">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Feature</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Product</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#feature">Feature</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Product</a></li>
                 </ul>
             </nav>
             <div class="shop-now big-yellow-btn"><a href="#">Shop Now</a></div>
-            
         </div>
         <div class="header-main">
             <div class="hero-area-content">
@@ -43,11 +41,13 @@
     </header>
 
     <main>
-        <div class="feature">
+        <div id="feature" class="feature widthblock">
             <div class="feature-heading">
                 <ul>
                     <li><a href="#">Water Resist</a></li>
-                    <li class="feature-selected"><a href="#">Charging System</a></li>
+                    <li class="feature-selected"><a href="#">Charging System</a>
+                        <div class="feature-selected-line"></div>
+                    </li>
                     <li><a href="#">Artificial Leather</a></li>
                     <li><a href="#">Modern Clothes</a></li>
                 </ul>
@@ -59,16 +59,100 @@
                 <div class="feature-image"><img src="./images/bag4.png"></div>
             </div>
         </div>
-    </main>
-    <footer></footer>
-    header, main и footer
-    Внутри элемента
-    header разместите логотип сайта и навигационное меню с ссылками на разные секции
-    сайта.
-    Внутри элемента
+        <div id="about" class="abouts">
+            <div class="about-images">
 
-    Внутри элемента footer разместите копирайт
-    сайта.
+                <img id="bag5" src="./images/bag5.png" alt="">
+                <img id="bag6" src="./images/bag6.png" alt="">
+                <img id="bag7" src="./images/bag7.png" alt="">
+
+
+            </div>
+            <div class="about-content">
+                <div class="subheading">Creative bag only for you.</div>
+                <div class="heading-text">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</div>
+                <div class="header-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.
+                </div>
+                <div class="sea-more big-yellow-btn"><a href="#">Sea More</a></div>
+            </div>
+        </div>
+        <div id="product" class="our-product widthblock">
+            <div class="our-header">Our Available Product</div>
+            <div class="our-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore.</div>
+            <div class="our-table widthblock">
+                <div class="bag-background bag8"><img src="./images/bag8.png" alt=""></div>
+                <div class="bag-background bag9"><img src="./images/bag9.png" alt=""></div>
+                <div class="bag-background bag10"><img src="./images/bag10.png" alt=""></div>
+                <div class="bag-background bag11"><img src="./images/bag11.png" alt=""></div>
+                <div class="bag-background bag12"><img src="./images/bag12.png" alt=""></div>
+                <div class="bag-background bag13"><img src="./images/bag13.png" alt=""></div>
+                <div class="bag-background bag14"><img src="./images/bag14.png" alt=""></div>
+                <div class="bag-background bag15"><img src="./images/bag15.png" alt=""></div>
+            </div>
+            <div class="our-more"><a href="#">See More →</a></div>
+        </div>
+        <div class="cta widthblock">
+            <div class="cta-image">
+                <div class="image-filter"></div>
+            </div>
+            <div class="cta-form">
+                <form action="">
+                    <h4>Lorem ipsum dolor sit amet adipiscing elit.</h4>
+                    <input type="text" placeholder="Name">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <input class="adress" type="text" placeholder="Adress">
+                    <div><input type="checkbox" name="" id="">
+                        <div>Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="big-yellow-btn"><a href="#">Join Now</a></div>
+                </form>
+            </div>
+        </div>
+        <div class="social-proof widthblock">
+            <img src="./images/company1.png" alt="">
+            <img src="./images/company2.png" alt="">
+            <img src="./images/company3.png" alt="">
+            <img src="./images/company4.png" alt="">
+        </div>
+    </main>
+
+    <footer>
+        <div class="inner-footer widthblock">
+            <div class="footer-column">
+                <div class="logo">Bag</div>
+                <div class="footer-main-text footer-text">Lorem ipsum dolor sit amet consectetur adipiscing sed do
+                    eiusmod.</div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-header">Special Catagories</div>
+
+                <div>
+                    <div class="footer-text">Water Resistant</div>
+                    <div class="footer-text">Charging System</div>
+                    <div class="footer-text">Artificial Leather</div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-header">Contact Us</div>
+                <div>
+                    <div class="footer-text">(808) 555-0111</div>
+                    <div class="footer-text">Michelle.Rivera@Example.Com</div>
+                    <div class="footer-text">http://www.codehow.com</div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-header">News Latter</div>
+                <div>
+                    <input class=" footer-email" type="text" placeholder="Enter Your Email">
+                    <div class="big-yellow-btn"><a href="#">Subscribe</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 
 </html>
